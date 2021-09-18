@@ -44,7 +44,7 @@ img {
   margin-bottom: 40px;
 }
 
-.subtitulo:after {
+.subtitulo::after {
   content: "";
   display: block;
   width: 60px;
@@ -63,7 +63,7 @@ img {
   margin-bottom: 20px;
 }
 
-.subtitulo_interno:after {
+.subtitulo_interno::after {
   content: "";
   display: block;
   width: 60px;
@@ -140,14 +140,13 @@ img {
   font-style: italic;
 }
 
-.quote-externo p:before, .quote-externo p:after {
+.quote-externo p::before, .quote-externo p::after {
   content: "";
   display: block;
   width: 60px;
   height: 3px;
   background-color: #fff;
   margin: 14px auto 10px auto;
-
 }
 
 .quote-externo cite {
@@ -175,14 +174,13 @@ img {
   text-transform: uppercase;
 }
 
-.introducao-interna p:before {
+.introducao-interna p::before {
   content: "";
   display: block;
   width: 60px;
   height: 3px;
   background-color: #fff;
   margin: 6px auto 10px auto;
-
 }
 
 
@@ -209,7 +207,7 @@ img {
   
 }
 
-.produtos_lista li h3:after {
+.produtos_lista li h3::after {
   content: "";
   display: block;
   width: 60px;
@@ -250,7 +248,7 @@ img {
   color: #4DCF3E;
 }
 
-.portfolio .subtitulo:after {
+.portfolio .subtitulo::after {
   background: #4DCF3E;
 }
 
@@ -272,7 +270,7 @@ img {
   padding: 60px 0;
 }
 
-.qualidade:after {
+.qualidade::after {
   content: "";
   width: 635px;
   height: 83px;
@@ -308,7 +306,7 @@ img {
   
 }
 
-.qualidade_lista li h3:after {
+.qualidade_lista li h3::after {
   content: "";
   display: block;
   width: 60px;
@@ -350,7 +348,7 @@ img {
   font-weight: bold;
 }
 
-.footer h3:after {
+.footer h3::after {
   content: "";
   display: block;
   width: 60px;
