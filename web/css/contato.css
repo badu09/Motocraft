@@ -89,16 +89,23 @@
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-.dados_email {
-  margin-bottom: 40px;
+.contato_dados span:nth-of-type(even) {
+  margin-bottom: 30px;
 }
 
-
-.footer_redes ul li{
+.contato_dados ul li{
   display: inline-block;
-  margin-right: 10px;
+  margin-right: 15px;
+}
+
+.contato_dados ul {
+  margin-top: 10px;
 }
 
 .contato_dados p {
   margin-top: 8px 0;
+}
+
+.contato_mapa {
+  margin-bottom: 60px;
 }
