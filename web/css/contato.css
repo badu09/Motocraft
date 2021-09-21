@@ -1,3 +1,15 @@
+/*
+ * @File Name          : contato.css
+ * @Description        : Css da página de contato
+ * @Author             : Bruno Badu - 
+ * @Group              : 
+ * @Last Modified By   : Bruno Badu - 
+ * @Last Modified On   : 21/09/2021 19:32:49
+ * @Modification Log   : 
+ * Ver       Date              Author      		  Modification
+ * 1.0      21/09/2021         Bruno Badu -     Initial Version
+*/
+
 .interna_contato{
   background: url("/web/img/bg-contato.jpg") no-repeat center;
   background-size: cover;
@@ -25,7 +37,7 @@
 .contato_form input {
   display: block;
   width: 100%;
-  border: 4px solid #4DCF3E;
+  border: 3px solid #4DCF3E;
   background: none;
   color: #231C1C;
   font-size: 14px;
@@ -58,11 +70,11 @@
   border-radius: 5px;
 }
 
-.orcamento_dados {
+.contato_dados {
   color: #231C1C;
 }
 
-.orcamento_dados h3 {
+.contato_dados h3 {
   font-size: 18px;
   text-transform: uppercase;
   line-height: 25px;
@@ -70,7 +82,7 @@
   font-weight: bold;
 }
 
-.orcamento_dados span {
+.contato_dados span {
   display: block;
   font-size: 18px;
   line-height: 30px;
@@ -81,20 +93,12 @@
   margin-bottom: 40px;
 }
 
-.orcamento_dados ul {
-  padding-right: 80px;
+
+.footer_redes ul li{
+  display: inline-block;
+  margin-right: 10px;
 }
 
-.orcamento_dados ul li {
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  font-size: 14px;
-  padding: 10px 15px;
-}
-
-.orcamento_dados ul li:nth-child(odd) {
-  background: #292121;
-}
-
-.orcamento_dados p {
+.contato_dados p {
   margin-top: 8px 0;
 }

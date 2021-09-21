@@ -1,3 +1,15 @@
+/*
+ * @File Name          : grid.css
+ * @Description        : Css grid layout
+ * @Author             : Bruno Badu - 
+ * @Group              : 
+ * @Last Modified By   : Bruno Badu - 
+ * @Last Modified On   : 21/09/2021 21:40:10
+ * @Modification Log   : 
+ * Ver       Date              Author      		  Modification
+ * 1.0      02/09/2021         Bruno Badu -     Initial Version
+*/
+
 *, *:before, *:after {
 	/* webkit é para safari e google chrome */
   -webkit-box-sizing: border-box; 
