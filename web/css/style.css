@@ -145,6 +145,7 @@ img {
   font-weight: bold;
   text-transform: uppercase;
 }
+
 .quote-externo {
   max-width: 320px;
   margin: 0 auto;
@@ -203,8 +204,7 @@ img {
 /* Produtos */
 
 .produtos {
-  padding: 60px 0;
-  
+  padding: 60px 0; 
 }
 
 .produtos_lista li {
@@ -220,7 +220,6 @@ img {
   text-transform: uppercase;
   letter-spacing: .1em;
   margin-top: 20px;
-  
 }
 
 .produtos_lista li h3::after {
@@ -318,8 +317,7 @@ img {
   line-height: 25px;
   text-transform: uppercase;
   letter-spacing: .1em;
-  margin-top: 20px;
-  
+  margin-top: 20px; 
 }
 
 .qualidade_lista li h3::after {
