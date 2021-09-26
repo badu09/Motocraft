@@ -4,7 +4,7 @@
  * @Author             : Bruno Badu - 
  * @Group              : 
  * @Last Modified By   : Bruno Badu - 
- * @Last Modified On   : 17/09/2021 23:41:58
+ * @Last Modified On   : 25/09/2021 23:41:58
  * @Modification Log   : 
  * Ver       Date              Author      		  Modification
  * 1.0      17/09/2021         Bruno Badu -     Initial Version
@@ -35,6 +35,7 @@
   top: -180px;
   margin-bottom: -56px;
 }
+
 .produto_item h2::after, .produto_item h2::before {
   content: "";
   display: block;
@@ -97,7 +98,6 @@
 }
 
 /* Orçamento */
-
 .orcamento {
   background: #231C1C;
   width: 100%;
@@ -116,6 +116,7 @@
 .form {
   padding-right: 60px;
 }
+
 .form label {
   display: block;
   color: #fff;

@@ -21,8 +21,8 @@
 	}
 
 	.qualidade_lista li {
-	text-align: center;
-	padding: 10px;
+		text-align: center;
+		padding: 10px;
 	}
 	  
 	/* Footer */
@@ -35,6 +35,28 @@
 		height: 40px;
 	}
 
+	/* Produtos */
+	.produto_item h2 {
+		top: -154px;
+	}
+
+	.produto_icone {
+		padding: 45px 0;
+	}
+
+	.produto_info p {
+		font-size: 14px;
+		line-height: 20px;
+		height: 120px;
+		padding: 15px 25px;
+	}
+
+	.produto_info ul li {
+		font-size: 14px;
+		line-height: 20px;
+		width: 181px;
+		height: 49px;
+	}
 }
 
 /* Estilo para telas de smartphones */
@@ -105,7 +127,7 @@
 		line-height: 25px;
 	}
 
-	  /* Qualidade */
+	/* Qualidade */
 	.qualidade {
 		padding: 0px;
   	}
@@ -122,7 +144,7 @@
 
 	.subtitulo {
 		margin-bottom: 30px;
-	  }
+	}
 
 	.qualidade_lista li {
 		margin-top: 30px;
@@ -136,6 +158,39 @@
 	.autor {
 		text-align: left;
 	}
+
+	/* Produtos */
+	.produto_item h2 {
+		top: -95px;
+		font-size: 24px;
+	}
+
+	.produto_icone {
+		padding: 45px 0;
+	}
+
+	.produto_info {
+		background: #231C1C;
+		border-radius: 15px 15px 0 0;
+	}
+
+	.produto_info p {
+		font-size: 14px;
+		line-height: 20px;
+		height: auto;
+		padding: 15px 25px;
+	}
+
+	.produto_info ul li {
+		font-size: 14px;
+		line-height: 20px;
+		width: 149px;
+		height: 49px;
+	}
+
+	.form, .orcamento_dados ul{
+		padding-right: 0;
+	  }
 
 }
 
