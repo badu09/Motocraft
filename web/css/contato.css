@@ -15,9 +15,7 @@
   background-size: cover;
 }
 
-
 /* Contato */
-
 .contato {
   padding: 40px 0;
 }
@@ -25,6 +23,7 @@
 .contato_form {
   padding-right: 60px;
 }
+
 .contato_form label {
   display: block;
   color: #231C1C;

@@ -129,7 +129,7 @@
 
 	/* Qualidade */
 	.qualidade {
-		padding: 0px;
+		padding-top: 60px;
   	}
 
 	/* Portfólio */
@@ -192,5 +192,15 @@
 		padding-right: 0;
 	  }
 
+	  /* Portfólio */
+	.quote_cliente cite {
+		padding-right: 90px;
+	}
+
+	/* Contato */
+	.contato_form {
+		padding-right: 0px;
+		margin-bottom: 40px;
+	}
 }
 
