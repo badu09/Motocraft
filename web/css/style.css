@@ -387,3 +387,42 @@ img {
   text-align: right;
   padding-right: 28px;
 }
+
+/* JavaScript */
+.js [data-slide] {
+  position: relative;
+}
+.js [data-slide] > * {
+  position: absolute;
+  top: 0px;
+  opacity: 0;
+}
+.js [data-slide] > .active {
+  position: relative;
+  opacity: 1;
+  transition: opacity 500ms;
+}
+
+.js [data-slide-nav] {
+  display: block;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.js [data-slide-nav] button {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  margin: 4px;
+  border: none;
+  padding: 0px;
+  border-radius: 6px;
+  color: #231C1C;
+  text-indent: -99px;
+  overflow: hidden;
+  background-color: #000000;
+}
+
+.js [data-slide-nav] .active {
+  background-color: #4DCF3E;
+}
