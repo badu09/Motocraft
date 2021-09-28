@@ -392,11 +392,13 @@ img {
 .js [data-slide] {
   position: relative;
 }
+
 .js [data-slide] > * {
   position: absolute;
   top: 0px;
   opacity: 0;
 }
+
 .js [data-slide] > .active {
   position: relative;
   opacity: 1;
