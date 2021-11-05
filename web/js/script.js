@@ -11,3 +11,7 @@ new SimpleSlide({
     nav: true
  });
 }
+
+if(window.SimpleSlide) {
+   new SimpleAnime();
+}
