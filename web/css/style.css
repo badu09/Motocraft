@@ -3,8 +3,8 @@
  * @Description        : Css geral
  * @Author             : Bruno Badu - 
  * @Group              : 
- * @Last Modified By   : Bruno Badu - 
- * @Last Modified On   : 21/09/2021 21:17:43
+ * @Last Modified By   : bruno.badu.freitas@accenture.com
+ * @Last Modified On   : 01-14-2022
  * @Modification Log   : 
  * Ver       Date              Author      		  Modification
  * 1.0      02/09/2021         Bruno Badu -     Initial Version
@@ -425,6 +425,15 @@ img {
   background-color: #000000;
 }
 
-.js [data-slide-nav] .active {
+.js [data-slide-nav] button.active {
   background-color: #4DCF3E;
+}
+
+.js [data-anime] {
+  opacity: 0;
+}
+
+.js .anime {
+  opacity: 1;
+  transition: opacity 900ms;
 }
