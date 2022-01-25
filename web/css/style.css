@@ -4,7 +4,7 @@
  * @Author             : Bruno Badu - 
  * @Group              : 
  * @Last Modified By   : bruno.badu.freitas@accenture.com
- * @Last Modified On   : 01-14-2022
+ * @Last Modified On   : 01-25-2022
  * @Modification Log   : 
  * Ver       Date              Author      		  Modification
  * 1.0      02/09/2021         Bruno Badu -     Initial Version
@@ -431,9 +431,15 @@ img {
 
 .js [data-anime] {
   opacity: 0;
+  transform: translate3d(0, -40px, 0);
+}
+
+.js .fadeInDown {
+  transform: translate3d(0, -20px, 0);
 }
 
 .js .anime {
   opacity: 1;
-  transition: opacity 900ms;
+  transform: none;
+  transition: opacity 1500ms, transform 1500ms;
 }
