@@ -4,7 +4,7 @@
  * @Author             : Bruno Badu - 
  * @Group              : 
  * @Last Modified By   : bruno.badu.freitas@accenture.com
- * @Last Modified On   : 01-25-2022
+ * @Last Modified On   : 01-26-2022
  * @Modification Log   : 
  * Ver       Date              Author      		  Modification
  * 1.0      02/09/2021         Bruno Badu -     Initial Version
@@ -442,4 +442,18 @@ img {
   opacity: 1;
   transform: none;
   transition: opacity 1500ms, transform 1500ms;
+}
+
+.nao-aparece {
+  visibility: hidden;
+  position: absolute;
+  height: 0px;
+}
+
+#form-sucesso {
+  color:#4DCF3E;
+}
+
+#form-erro {
+  color: rgb(220, 20, 60);
 }

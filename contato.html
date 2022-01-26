@@ -11,6 +11,7 @@
  * 1.0      21/09/2021         Bruno Badu -     Initial Version
 -->
 
+<!DOCTYPE html>
 <html lang="pt-br">
   <head>
     <meta charset="UTF-8">
@@ -21,9 +22,10 @@
     <link rel="stylesheet" href="/web/css/style.css">
     <link rel="stylesheet" href="/web/css/contato.css">
     <link rel="stylesheet" href="/web/css/resposivo.css">
-    <script>document.documentElement.classList.add("js")</script>
+    <script>document.documentElement.classList.add("js");</script>
   </head>
   <body>
+
     <header class="header">
       <div class="container">
         <a href="index.html" class="grid-4"><img src="/web/img/redes-sociais/motocraft-logo-pequeno.svg" alt="Motocraft"></a>
@@ -37,6 +39,7 @@
         </nav>
       </div>
     </header>
+
     <section class="introducao-interna interna_contato">
       <div class="container">
         <h1 data-anime="400" class="fadeInDown">Contato</h1>
@@ -45,17 +48,24 @@
     </section>
 
     <section class="contato container fadeInDown" data-anime="1200">
-      <form id="form_contato"action="" class="contato_form grid-8">
+      <form id="form_orcamento" method="POST" action="./enviar.php" class="contato_form grid-8 formphp">
         <label for="nome">Nome</label>
-        <input type="text" id="nome" value="">
+        <input type="text" id="nome" name="nome" required>
         <label for="email">E-mail</label>
-        <input type="text" id="email" value="">
+        <input type="email" id="email" name="email" required>
         <label for="telefone">Telefone</label>
-        <input type="text" id="telefone" value="">
-        <label for="espec">Especificações</label>
-        <textarea name="espec" id="espec"></textarea>
-        <button type="submit" class="btn btn-preto">Enviar</button>
+        <input type="text" id="telefone" name="telefone" >
+
+        <label class="nao-aparece">Se você não for um robô, deixe em branco.</label>
+        <input type="text" class="nao-aparece" name="leaveblank">
+        <label class="nao-aparece">Se você não for um robô, deixe em branco.</label>
+        <input type="text" class="nao-aparece" name="dontchange" value="http://">
+
+        <label for="mensagem">Mensagem</label>
+        <textarea id="mensagem" name="mensagem" required></textarea>
+        <button id="enviar" name="enviar" type="submit" class="btn btn-preto">Enviar</button>
       </form>
+
       <div class="contato_dados grid-8">
         <h3>Dados</h3>
         <span>+55 11 9999-9999</span>
@@ -70,15 +80,18 @@
         </ul>
       </div>
     </section>
+
     <section class="container contato_mapa">
       <a class="grid-16" href="http://google.com" target="_blank"><img src="/web/img/endereco-motocraft.jpg" alt="Endereço da Motocraft"></a>
     </section>
+
     <section class="quebra">
       <blockquote class="quote-externo container">
         <p>"O verdadeiro segredo da felicidade está em ter um genuíno interesse por todos os detalhes da vida cotidiana."</p>
         <cite>WILLIAM MORRIS</cite>
       </blockquote>
     </section>
+
     <footer>
       <div class="footer">
         <div class="container">
@@ -113,7 +126,10 @@
         </div>
       </div>
     </footer>
+
     <script src="/web/js/simple-anime.js"></script>
+    <script src="./web/js/simple-form.js"></script>
     <script src="/web/js/script.js"></script>
+    
   </body>
 </html>
