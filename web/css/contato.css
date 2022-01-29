@@ -3,8 +3,8 @@
  * @Description        : Css da página de contato
  * @Author             : Bruno Badu - 
  * @Group              : 
- * @Last Modified By   : Bruno Badu - 
- * @Last Modified On   : 21/09/2021 19:32:49
+ * @Last Modified By   : bruno.badu.freitas@accenture.com
+ * @Last Modified On   : 01-29-2022
  * @Modification Log   : 
  * Ver       Date              Author      		  Modification
  * 1.0      21/09/2021         Bruno Badu -     Initial Version
@@ -102,7 +102,7 @@
 }
 
 .contato_dados p {
-  margin-top: 8px 0;
+  margin-top: 8px;
 }
 
 .contato_mapa {

@@ -4,7 +4,7 @@
  * @Author             : Bruno Badu - 
  * @Group              : 
  * @Last Modified By   : bruno.badu.freitas@accenture.com
- * @Last Modified On   : 01-28-2022
+ * @Last Modified On   : 01-29-2022
  * @Modification Log   : 
  * Ver       Date              Author      		  Modification
  * 1.0      17/09/2021         Bruno Badu -     Initial Version
@@ -200,5 +200,5 @@
 }
 
 .orcamento_dados p {
-  margin-top: 8px 0;
+  margin-top: 8px;
 }
