@@ -3,8 +3,8 @@
  * @Description        : Css da página de produtos
  * @Author             : Bruno Badu - 
  * @Group              : 
- * @Last Modified By   : Bruno Badu - 
- * @Last Modified On   : 25/09/2021 23:41:58
+ * @Last Modified By   : bruno.badu.freitas@accenture.com
+ * @Last Modified On   : 01-28-2022
  * @Modification Log   : 
  * Ver       Date              Author      		  Modification
  * 1.0      17/09/2021         Bruno Badu -     Initial Version
@@ -39,9 +39,9 @@
 .produto_item h2::after, .produto_item h2::before {
   content: "";
   display: block;
-  width: 60px;
+  width: 50px;
   height: 3px;
-  background-color: #fff;
+  background-color: #4DCF3E;
   margin: 6px auto 8px auto;
 }
 

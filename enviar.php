@@ -8,11 +8,11 @@ require "./PHPMailer/src/PHPMailer.php";
 require "./PHPMailer/src/SMTP.php";
   
 // Mudar Aqui o e-mail
-$email_envio = ""; // E-mail do site, sempre usar o e-mail de hospedagem (ex: contato@seusite.com)
+$email_envio = ""; // E-mail do site (ex: contato@seusite.com)
 $email_pass = ""; // Senha do e-mail
 
-$site_name = "Motocraft"; // Nome do Site
-$site_url = "www.motocraft.com"; // URL do Site
+$site_name = "Bikcraft"; // Nome do Site
+$site_url = "www.bikcraft.com"; // URL do Site
 
 $host_smtp = ""; // HOST SMTP Ex: smtp.domain.com.br
 $host_port = ""; // Porta do Host, geralmente 465 ou 587
@@ -62,7 +62,7 @@ try {
   $mail->send();
 ?>
 
-<html>
+  <html>
     <head>
       <title>Formulário enviado</title>
       <meta http-equiv="refresh" content="10;URL="./"">
